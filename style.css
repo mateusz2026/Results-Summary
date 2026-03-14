@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 13%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: hsl(222, 100%, 96%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  width: 380px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 2;
+  margin-bottom: -30px;
+}
+
+.radius {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.up {
+  font-weight: 800;
+  font-size: 60px;
+}
+.paragraf {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+.sum {
+  padding: 30px;
+  color: hsl(224, 30%, 27%);
+}
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 30px;
+  font-weight: 700;
+}
+.btn {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+.left-a {
+  color: hsl(0, 100%, 67%);
+}
+.left-b {
+  color: hsl(39, 100%, 56%);
+}
+.left-c {
+  color: hsl(0, 100%, 67%);
+}
+.left-d {
+  color: hsl(234, 85%, 45%);
+}
+img {
+  margin-right: 10px;
+}
+.right {
+  color: hsl(224, 30%, 27%);
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+  }
+
+  header {
+    width: 375px;
+    height: 560px;
+    border-radius: 30px;
+    margin-right: -20px;
+    margin-bottom: 0;
+  }
+  main {
+    flex: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .paragraf {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
