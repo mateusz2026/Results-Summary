@@ -5,7 +5,7 @@ This project is a solution to the Frontend Mentor Results Summary Component chal
 The goal was to build a responsive component that displays results and summary data.
 
 ## 🚀 Live Demo
-https://mateusz2026.github.io/results-summary/
+https://mateusz2026.github.io/Results-Summary/
 
 ## 🛠️ Built with
 - HTML5
@@ -26,8 +26,8 @@ https://mateusz2026.github.io/results-summary/
 - Styling UI elements like cards and buttons
 
 ## 🔗 Links
-- Repository: https://github.com/mateusz2026/results-summary
-- Live Site: https://mateusz2026.github.io/results-summary/
+- Repository: https://github.com/mateusz2026/Results-Summary
+- Live Site: https://mateusz2026.github.io/Results-Summary/
 
 ## 👨‍💻 Author
 - GitHub: https://github.com/mateusz2026
